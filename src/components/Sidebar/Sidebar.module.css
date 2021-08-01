@@ -1,0 +1,10 @@
+.aside{
+    grid-area: n;
+    padding-top:200px;
+    padding-left: 20px;
+}
+
+.sidebarItem{
+    color: white;
+    text-decoration: none;
+}
