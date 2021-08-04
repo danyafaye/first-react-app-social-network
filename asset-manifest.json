@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/first-react-app-social-network/static/css/main.04948877.chunk.css",
-    "main.js": "/first-react-app-social-network/static/js/main.92bd64f5.chunk.js",
-    "main.js.map": "/first-react-app-social-network/static/js/main.92bd64f5.chunk.js.map",
-    "runtime-main.js": "/first-react-app-social-network/static/js/runtime-main.22ecaca6.js",
-    "runtime-main.js.map": "/first-react-app-social-network/static/js/runtime-main.22ecaca6.js.map",
-    "static/js/2.e7f3212f.chunk.js": "/first-react-app-social-network/static/js/2.e7f3212f.chunk.js",
-    "static/js/2.e7f3212f.chunk.js.map": "/first-react-app-social-network/static/js/2.e7f3212f.chunk.js.map",
-    "static/css/3.47ee1305.chunk.css": "/first-react-app-social-network/static/css/3.47ee1305.chunk.css",
-    "static/js/3.eb1a9e4c.chunk.js": "/first-react-app-social-network/static/js/3.eb1a9e4c.chunk.js",
-    "static/js/3.eb1a9e4c.chunk.js.map": "/first-react-app-social-network/static/js/3.eb1a9e4c.chunk.js.map",
+    "main.js": "/first-react-app-social-network/static/js/main.cc52b1c0.chunk.js",
+    "main.js.map": "/first-react-app-social-network/static/js/main.cc52b1c0.chunk.js.map",
+    "runtime-main.js": "/first-react-app-social-network/static/js/runtime-main.eef9ddbf.js",
+    "runtime-main.js.map": "/first-react-app-social-network/static/js/runtime-main.eef9ddbf.js.map",
+    "static/js/2.8f1ddc8e.chunk.js": "/first-react-app-social-network/static/js/2.8f1ddc8e.chunk.js",
+    "static/js/2.8f1ddc8e.chunk.js.map": "/first-react-app-social-network/static/js/2.8f1ddc8e.chunk.js.map",
+    "static/css/3.ee974470.chunk.css": "/first-react-app-social-network/static/css/3.ee974470.chunk.css",
+    "static/js/3.7f5ac6e5.chunk.js": "/first-react-app-social-network/static/js/3.7f5ac6e5.chunk.js",
+    "static/js/3.7f5ac6e5.chunk.js.map": "/first-react-app-social-network/static/js/3.7f5ac6e5.chunk.js.map",
     "static/css/4.0e055d90.chunk.css": "/first-react-app-social-network/static/css/4.0e055d90.chunk.css",
-    "static/js/4.2261a2f1.chunk.js": "/first-react-app-social-network/static/js/4.2261a2f1.chunk.js",
-    "static/js/4.2261a2f1.chunk.js.map": "/first-react-app-social-network/static/js/4.2261a2f1.chunk.js.map",
+    "static/js/4.becfee0e.chunk.js": "/first-react-app-social-network/static/js/4.becfee0e.chunk.js",
+    "static/js/4.becfee0e.chunk.js.map": "/first-react-app-social-network/static/js/4.becfee0e.chunk.js.map",
     "index.html": "/first-react-app-social-network/index.html",
-    "static/css/3.47ee1305.chunk.css.map": "/first-react-app-social-network/static/css/3.47ee1305.chunk.css.map",
+    "static/css/3.ee974470.chunk.css.map": "/first-react-app-social-network/static/css/3.ee974470.chunk.css.map",
     "static/css/4.0e055d90.chunk.css.map": "/first-react-app-social-network/static/css/4.0e055d90.chunk.css.map",
     "static/css/main.04948877.chunk.css.map": "/first-react-app-social-network/static/css/main.04948877.chunk.css.map",
-    "static/js/2.e7f3212f.chunk.js.LICENSE.txt": "/first-react-app-social-network/static/js/2.e7f3212f.chunk.js.LICENSE.txt",
+    "static/js/2.8f1ddc8e.chunk.js.LICENSE.txt": "/first-react-app-social-network/static/js/2.8f1ddc8e.chunk.js.LICENSE.txt",
     "static/media/Spinner-1s-200px.c800ed5b.svg": "/first-react-app-social-network/static/media/Spinner-1s-200px.c800ed5b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.22ecaca6.js",
-    "static/js/2.e7f3212f.chunk.js",
+    "static/js/runtime-main.eef9ddbf.js",
+    "static/js/2.8f1ddc8e.chunk.js",
     "static/css/main.04948877.chunk.css",
-    "static/js/main.92bd64f5.chunk.js"
+    "static/js/main.cc52b1c0.chunk.js"
   ]
 }
