@@ -8,7 +8,7 @@ let store = {
             posts: [{id: 1, message: 'Hi, how are you?', likesCount: 0},
                 {id: 2, message: "It's my first post", likesCount: 23},
             ],
-            newPostText: "it-kamasutra.com"
+            newPostText: "new post"
         },
         dialogsPage: {
             messages: [{id: 1, message: 'Hi'},
@@ -32,7 +32,7 @@ let store = {
         }
     },
     _callSubscriber() {
-        console.log('жопа');
+        console.log('...');
     },
 
     getState() {
