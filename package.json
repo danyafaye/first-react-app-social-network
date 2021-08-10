@@ -2,7 +2,6 @@
   "name": "react-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://danyafaye.github.io/first-react-app-social-network/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
