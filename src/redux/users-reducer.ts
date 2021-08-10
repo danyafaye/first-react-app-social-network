@@ -1,4 +1,4 @@
-import {usersAPI} from "../api/api";
+import {usersAPI} from "src/api/api";
 import {updateObjectInArray} from "../utils/object-helpers";
 import { UserType } from '../Types/types';
 import { AppStateType } from '../redux/redux-store'
