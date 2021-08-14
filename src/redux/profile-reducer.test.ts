@@ -1,16 +1,18 @@
-import profileReducer, {addPostCreator, deletePost} from "./profile-reducer";
-import {render, screen} from "@testing-library/react";
-import App from "../App";
+import profileReducer, {actions} from "./profile-reducer";
+import { ProfileType } from '../Types/types';
 
 let state = {
     posts: [{id: 1, message: 'Hi, how are you?', likesCount: 0},
         {id: 2, message: "It's my first post", likesCount: 23},
-    ]
+    ],
+    profile: null as ProfileType | null,
+    status: "",
+    newPostText: ""
 }
 
 test('length of posts should be incremented', () => {
     //1.test data
-    let action = addPostCreator("blablabla");
+    let action = actions.addPostCreator("blablabla");
     //2.action
     let newState = profileReducer(state,action);
     //3.expectation
@@ -18,7 +20,7 @@ test('length of posts should be incremented', () => {
 });
 test('message of new post should be correct', () => {
     //1.test data
-    let action = addPostCreator("blablabla");
+    let action = actions.addPostCreator("blablabla");
     //2.action
     let newState = profileReducer(state,action);
     //3.expectation
@@ -26,7 +28,7 @@ test('message of new post should be correct', () => {
 });
 test('after deleting length of messages should be decremented', () => {
     //1.test data
-    let action = deletePost(1);
+    let action = actions.deletePost(1);
     //2.action
     let newState = profileReducer(state,action);
     //3.expectation
@@ -34,7 +36,7 @@ test('after deleting length of messages should be decremented', () => {
 });
 test(`after deleting length should'nt be decremented if id is incorrect`, () => {
     //1.test data
-    let action = deletePost(1000);
+    let action = actions.deletePost(1000);
     //2.action
     let newState = profileReducer(state,action);
     //3.expectation
