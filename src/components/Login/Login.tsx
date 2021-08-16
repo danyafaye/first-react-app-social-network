@@ -1,7 +1,7 @@
 import React from "react";
 import { InjectedFormProps, reduxForm } from "redux-form";
 import {required} from "../../utils/validators/validators";
-import { createField, Input} from "../../components/common/FormsControls/FormsControls";
+import { createField, GetStringKeys, Input } from "../../components/common/FormsControls/FormsControls";
 import {connect} from "react-redux";
 import {Redirect} from "react-router-dom";
 import style from "./../common/FormsControls/FormsControls.module.css"
@@ -51,7 +51,7 @@ export type LoginFormValuesType = {
     email: string
 }
 
-type LoginFormValuesTypeKeys = Extract<keyof LoginFormValuesType, string>
+type LoginFormValuesTypeKeys = GetStringKeys<LoginFormValuesType>
 
 const Login:React.FC<MapStatePropsType & MapDispatchPropsType> = (props) => {
     const onSubmit = (formData: LoginFormValuesType) => {
