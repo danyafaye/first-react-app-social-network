@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import Paginator from '../common/Paginator/Paginator';
-import User from "./User";
+import User from "../../components/Users/User";
 import { UserType } from './../../Types/types';
 
 type PropsType = {
