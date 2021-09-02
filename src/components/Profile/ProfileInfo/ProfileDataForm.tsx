@@ -12,8 +12,8 @@ type ProfileTypeKeys = GetStringKeys<ProfileType>
 
 const ProfileDataForm:React.FC<InjectedFormProps<ProfileType, PropsType> & PropsType> = ({handleSubmit, profile, error}) => {
     return <form onSubmit={handleSubmit}>
-        <div>
-            <button>save</button>
+        <div className={s.saveButton}>
+            <button>Save</button>
         </div>
         {error && <div className={style.formSummaryError}>
             {error}

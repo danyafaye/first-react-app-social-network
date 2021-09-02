@@ -21,6 +21,7 @@ const MyPosts: React.FC<MapPropsType & DispatchPropsType> = props => {
 
     return (
         <div className={s.postsBlock}>
+            <h1 className={s.postsDev}>IN DEVELOPMENT STAGE</h1>
             <h3>My posts</h3>
             <AddPostForm onSubmit={onAddPost}/>
             <div className={s.posts}>

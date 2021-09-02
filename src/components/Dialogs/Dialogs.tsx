@@ -27,13 +27,16 @@ const Dialogs: React.FC<PropsType> = (props) => {
     }
 
     return (
-        <div className={s.dialogs}>
-            <div className={s.dialogsItems}>{dialogsElements}</div>
-            <div className={s.messages}>
+        <div>
+            <h1 className={s.dialogsDev}>IN DEVELOPMENT STAGE</h1>
+            <div className={s.dialogs}>
+                <div className={s.dialogsItems}>{dialogsElements}</div>
+                <div className={s.messages}>
 
-                <div>{messagesElements}</div>
+                    <div>{messagesElements}</div>
+                </div>
+                <AddMessageForm onSubmit={addNewMessage}/>
             </div>
-            <AddMessageForm onSubmit={addNewMessage}/>
         </div>
     );
 }

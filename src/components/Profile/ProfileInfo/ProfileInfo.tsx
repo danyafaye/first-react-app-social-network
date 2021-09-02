@@ -44,7 +44,7 @@ const ProfileInfo: React.FC<PropsType> = ({
         <div>
             <div className={s.descriptionBlock}>
                 <img src={profile.photos.large || userPhoto} className={s.mainPhoto}/>
-                {isOwner && <input type={"file"} onChange={onMainPhotoSelected}/>}
+                {isOwner && <input className={s.inputPhoto} type={"file"} onChange={onMainPhotoSelected}/>}
                 {editMode
                     ? <ProfileDataForm initialValues={profile} profile={profile} onSubmit={onSubmit}/>
                     : <ProfileData goToEditMode={() => {
@@ -56,7 +56,7 @@ const ProfileInfo: React.FC<PropsType> = ({
     )
 }
 
-type ProfileDataPropsType = {
+export type ProfileDataPropsType = {
     profile: ProfileType
     isOwner: boolean
     goToEditMode: () => void
@@ -65,7 +65,7 @@ type ProfileDataPropsType = {
 const ProfileData: React.FC<ProfileDataPropsType> = ({ profile, isOwner, goToEditMode }) => {
     return <div>
         {isOwner && <div>
-            <button onClick={goToEditMode}>edit</button>
+            <button className={s.editButton} onClick={goToEditMode}>Edit profile info</button>
         </div>}
         <div>
             <b>Full name</b>: {profile.fullName}

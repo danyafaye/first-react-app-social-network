@@ -85,7 +85,7 @@ class App extends React.Component<MapPropsType & DispatchPropsType> {
                                 <Redirect exact from="/" to="/profile"/>
                                 <Route path="/dialogs" render={() => <SuspendedDialogs/>}/>
                                 <Route path="/profile/:userId?" render={() => <SuspendedProfile/>}/>
-                                <Route path="/developers" render={() => <UsersPage pageTitle={"Пользователи"}/>}/>
+                                <Route path="/developers" render={() => <UsersPage pageTitle={"Разработчики"}/>}/>
                                 <Route path="/news" render={() => <News/>}/>
                                 <Route path="/music" render={() => <Music/>}/>
                                 <Route path="/settings" render={() => <Settings/>}/>
