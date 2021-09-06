@@ -4,7 +4,7 @@ import { UserType } from '../Types/types';
 export const instance = axios.create({
     withCredentials: true,
     baseURL: 'https://social-network.samuraijs.com/api/1.0/',
-    headers: {"API-KEY": "4e0ec27d-adef-4957-9770-3c7416fb45cc"}
+    headers: {"API-KEY": "03e8cca7-0db1-4d09-a341-973c5c21a426"}
 });
 
 export enum ResultCodesEnum {
